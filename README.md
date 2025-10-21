@@ -224,5 +224,12 @@ tensorboard --logdir ./runs/test/tensorboard
 - 50GB disk space (for datasets and models)
 - CUDA 11.8+
 
+## Contact
+
+Questions, issues, or ideas for improvements are very welcome:
+
+📧 fumingyang@fas.harvard.edu
+
+Contributions (bug reports, PRs) are appreciated — please open an issue or pull request on GitHub with a clear description and reproduction steps.
 
 
