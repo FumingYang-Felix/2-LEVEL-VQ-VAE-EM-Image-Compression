@@ -1,0 +1,18 @@
+# VQ-VAE EM Compression Requirements
+
+# Core dependencies
+tensorflow>=2.10.0,<3.0.0
+numpy>=1.21.0
+pillow>=9.0.0
+matplotlib>=3.5.0
+tqdm>=4.62.0
+
+# Optional but recommended
+tensorboard>=2.10.0  # For training visualization
+scikit-image>=0.19.0  # For additional image processing
+
+# Development (optional)
+pytest>=7.0.0  # For testing
+black>=22.0.0  # For code formatting
+flake8>=4.0.0  # For linting
+
