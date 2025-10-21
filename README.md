@@ -5,8 +5,6 @@
 ### 1. Install Dependencies
 
 ```bash
-cd /../
-
 # Install requirements
 pip install -r vqvae_requirements.txt
 ```
@@ -131,7 +129,7 @@ output = model(dummy_input, training=False)
 print(f"✓ Forward pass successful: {output.shape}")
 
 print("\n" + "="*60)
-print("✅ All checks passed! Ready to train.")
+print("All checks passed! Ready to train.")
 print("="*60)
 ```
 
@@ -195,9 +193,8 @@ mixed_precision.set_global_policy('mixed_float16')
 
 Once setup is complete:
 
-1. Read `VQVAE_README.md` for usage guide
-2. Prepare your EM image dataset
-3. Start with Mode 1 training:
+1. Prepare your EM image dataset
+2. Start with Mode 1 training:
 
 ```bash
 python train_mode1_toponly.py \
@@ -227,34 +224,5 @@ tensorboard --logdir ./runs/test/tensorboard
 - 50GB disk space (for datasets and models)
 - CUDA 11.8+
 
-### Tested Configurations
 
-✅ **macOS (Apple Silicon)**
-- M1/M2/M3 with 16GB RAM
-- TensorFlow 2.13+ with Metal acceleration
-- Training speed: ~30 sec/epoch (Mode 1, batch_size=1)
-
-✅ **Linux (NVIDIA GPU)**
-- Ubuntu 22.04, RTX 3090 (24GB)
-- TensorFlow 2.12 with CUDA 11.8
-- Training speed: ~5 sec/epoch (Mode 1, batch_size=4)
-
-✅ **Linux (CPU only)**
-- Ubuntu 22.04, AMD Ryzen 9
-- TensorFlow 2.13
-- Training speed: ~200 sec/epoch (Mode 1, batch_size=1)
-
-## Support
-
-If you encounter issues:
-
-1. Check TensorFlow installation: `pip show tensorflow`
-2. Verify Python version: `python3 --version`
-3. Review error messages carefully
-4. Check GPU availability if using GPU
-5. Try reducing batch size if OOM errors occur
-
----
-
-**Ready to start training!** See `VQVAE_README.md` for detailed usage instructions.
 
