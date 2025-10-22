@@ -12,7 +12,7 @@ pip install -r vqvae_requirements.txt
 ### 2. Verify Installation
 
 ```bash
-# Check TensorFlow
+# Check TensorFlow  
 python3 -c "import tensorflow as tf; print(f'TensorFlow version: {tf.__version__}')"
 
 # Check imports
