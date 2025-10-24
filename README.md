@@ -1,11 +1,11 @@
 # PAY-AS-YOU-DECODE: SELECTIVE HIGH-RESOLUTION EM FROM 1024× COMPRESSED LATENTS
 
 <p align="center">
-  <a href="https://youtu.be/f8raYfpha_k">
-    <img src="homepage.png" alt="SuperChain demo" width="900">
+  <a href="https://www.youtube.com/watch?v=1rl-LlP0kVc">
+    <img src="homepage.png" alt="EM Compression demo" width="900">
   </a>
   <br/>
-  <a href="https://youtu.be/f8raYfpha_k">
+  <a href="https://www.youtube.com/watch?v=1rl-LlP0kVc">
     <img src="https://img.shields.io/badge/YouTube-Watch-red?logo=youtube" alt="Watch on YouTube">
   </a>
 </p>
